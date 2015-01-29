@@ -1,6 +1,8 @@
 .cell {
 	border: 1px solid orange;
 	display: inline-block;
+	width:100px;
+	height:100px;
 }
 
 .selected {

@@ -14,7 +14,10 @@
     <div id="container">
       <div ng-repeat="row in board track by $index">
         <div class="square" ng-repeat="cell in row track by $index" ng-click="makeMove($parent.$index, $index)">
-          {{ cell == "" ? "&nbsp;" : cell }}
+
+        {{ cell == "" ? "&nbsp;"  : cell }}
+          <!-- {{ cell == "" ? "&nbsp;" : cell }} -->
+         
         </div>
       </div>
     </div>

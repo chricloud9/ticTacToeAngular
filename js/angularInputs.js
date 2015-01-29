@@ -5,7 +5,7 @@ app.controller('angularInputsCtrl', function($scope){
 
 	$scope.board = [["", "", ""], ["", "", ""], ["", "", ""]];
 	
-	$scope.game = {board: [1, 2, 3, 4, 5, 6, 7, 8, 9], p1: "X", p2: "O"};
+	// $scope.game = {board: [1, 2, 3, 4, 5, 6, 7, 8, 9], p1: "X", p2: "O"};
 
 	// $scope.squareClick = function(row, col){
 	// 	$scope.board[row][col] = "I got clicked!!!";
